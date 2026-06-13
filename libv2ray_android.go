@@ -3,7 +3,7 @@ package libv2ray
 import (
 	"fmt"
 
-	corenet "github.com/xtls/xray-core/common/net"
+	corenet "github.com/stereomonk/xray-core-awg/common/net"
 )
 
 // ProcessFinder is an interface for Android process finding functionality.

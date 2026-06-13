@@ -66,7 +66,7 @@ jobs:
             echo "Failed to detect Go version from upstream go.mod"
           fi
 
-          go get github.com/xtls/xray-core@${{ env.LATEST_TAG_SHA }}
+          go get github.com/stereomonk/xray-core-awg@${{ env.LATEST_TAG_SHA }}
           go get golang.org/x/mobile@latest
           
           # Clean up and verify module dependencies
